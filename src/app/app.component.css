@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.hexbin-hexagon {
+	stroke: #000;
+	stroke-width: 1.5px;
+}
+
+.hexbin-container:hover .hexbin-hexagon {
+    transition: 200ms;
+    stroke: orange;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+}
